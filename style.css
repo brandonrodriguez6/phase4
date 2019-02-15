@@ -1,0 +1,50 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+}
+.toprow {
+    height: 25%;
+    width: 100%;
+    display: flex;
+	background-color: #3FE816;
+	border-width: 1px;
+	border-style: solid;
+}
+.center-content {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middlerow {
+    height: 50%;
+    width: 100%;
+    display: flex;
+	background-color: #FF00DE;
+	border-width: 1px;
+	border-style: solid;
+}
+.botrow{
+    height: 25%;
+    width: 100%;
+    display: flex;
+	background-color: #3FE816;
+	border-width: 1px;
+	border-style: solid;
+}
+.center-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.othird {
+	display: block;
+    height: 100%;
+    width: calc(100%/3);
+}	
+.restrict {
+	max-height: 100%;
+	max-width: 100%;
+}
+
